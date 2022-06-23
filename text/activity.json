@@ -1,0 +1,18 @@
+{
+    "_id": "/activity/7330df52-0b40-11e7-9249-0401663b8331",
+    "publisher": null,
+    "level": "principiante",
+    "rights": "Attribution-ShareAlike 4.0 International",
+    "description": "Se explica el concepto de clase en c#",
+    "icon": "file,",
+    "author": "mariosky@gmail.com",
+    "tags": [
+        "clase",
+        "csharp"
+    ],
+    "image_url": null,
+    "title": "Definci\u00f3n de Clase",
+    "type": "text",
+    "external_url": null,
+    "content": "<h2 id=\"constructores\">Constructores</h2>\n<p>Cuando creamos un objeto, debemos establecer cual ser\u00e1 su estado\ninicial. Recordemos que el estado inicial de un objeto est\u00e1 dado por los\nvalores actuales de sus propiedades.</p>\n<h3 id=\"sintaxis-para-crear-un-constructor\">Sintaxis para crear un\nconstructor</h3>\n<p>Un constructor <em>el nombre est\u00e1 dado por el de la clase.</em></p>\n<div class=\"sourceCode\" id=\"cb1\"><pre\nclass=\"sourceCode python\"><code class=\"sourceCode python\"><span id=\"cb1-1\"><a href=\"#cb1-1\" aria-hidden=\"true\" tabindex=\"-1\"></a><span class=\"kw\">def</span> foo(a, b):</span>\n<span id=\"cb1-2\"><a href=\"#cb1-2\" aria-hidden=\"true\" tabindex=\"-1\"></a>  <span class=\"cf\">return</span> a <span class=\"op\">+</span> b</span></code></pre></div>\n<pre class=\"language-csharp line-numbers\"><code>class Clase \n{\n  int campo;\n}</code></pre>\n<pre class=\"language-python line-numbers\"><code>class Clase \n{\n  int campo;\n}</code></pre>\n<p><code>python {.language-python .line-numbers} class Clase    def __init__(self, o):       self.o = o</code></p>\n"
+}

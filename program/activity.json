@@ -1,0 +1,23 @@
+{
+    "_id": "/program/7330df52-0b40-11e7-9249-0401663b8331",
+    "publisher": null,
+    "level": "principiante",
+    "rights": "Attribution-ShareAlike 4.0 International",
+    "description": "Este es el primer ejemplo de un programa desde archivos",
+    "icon": "coffee,",
+    "author": "mariosky@gmail.com",
+    "tags": [
+        "completa",
+        "csharp"
+    ],
+    "image_url": null,
+    "title": "Completa el programa",
+    "type": "prog",
+    "lang": "csharp",
+    "external_url": null,
+    "correct_code": "using System.IO;\nusing System;\npublic class Producto\n{\n        public int  code;\n        public string  desc;\n\n        public Producto(int c, string d)\n        {\n        code=c;\n        desc=d;\n        }\n\n        public void Print()\n        {\n        Console.WriteLine(\"Producto {0}: {1}\", code,desc);\n        }\n\n}\n\n\n",
+    "initial_code": "using System.IO;\nusing System;\npublic class Producto\n{\n        public   code;\n        public   desc;\n\n        public Producto(int c, string d)\n        {\n        code=c;\n        desc=d;\n        }\n\n        public void Print()\n        {\n        Console.WriteLine(\"Producto {0}: {1}\", code,desc);\n        }\n\n}\n\n",
+    "instructions": "<h1 id=\"in\">In</h1>\n",
+    "reg_exp": "",
+    "unit_test": "\npublic class ProductoTest\n{\n\n    [Fact]\n    public void Constructor()\n    {\n        Producto p = new Producto(1,\"hola\");\n        // Constraint Syntax\n        Assert.Equal(1, p.code);\n    }\n\n\n    [Fact]\n    public void PrintTest()\n    {\n        Producto p = new Producto(1,\"hola\");\n        p.Print();\n\n        using (StringWriter sw = new StringWriter())\n        {\n            Console.SetOut(sw);\n\n\n            p.Print();\n\n        string expected = \"Producto 1: hola\";\n        Assert.StartsWith(expected, sw.ToString());\n\n\n        }\n\n    }\n}\n"
+}

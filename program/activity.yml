@@ -1,0 +1,16 @@
+_id: /program/7330df52-0b40-11e7-9249-0401663b8331
+publisher: 
+level: principiante
+rights: Attribution-ShareAlike 4.0 International
+description: Este es el primer ejemplo de un programa desde archivos
+icon: coffee,
+author: mariosky@gmail.com
+tags: 
+  - completa
+  - csharp
+image_url: 
+title: Completa el programa
+type: prog
+lang: csharp
+external_url: 
+
