@@ -24,8 +24,8 @@ def to_json(activity_type, path):
                 activity_md = md_file.read()
                 if file in markdown_files:
                     activity_md = markdown.markdown(activity_md,
-                                                    extensions=['fenced_code',
-                                                                'codehilite'])
+                                                    extensions=['fenced_code'])
+                                                                # , 'codehilite'])
                     print(activity_md)
                 activity[file] = activity_md
 
@@ -34,4 +34,6 @@ def to_json(activity_type, path):
 
 
 if __name__ == "__main__":
-    print(to_json('activity', 'text//'))
+    json_object = to_json('activity', 'text//')
+    with open("sample.json", "w") as outfile:
+        outfile.write(json_object)
