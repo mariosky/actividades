@@ -1,4 +1,4 @@
-## Constructores ##
+## Constructores 
 
 Cuando creamos un objeto, debemos establecer cual será su estado inicial. Recordemos que
 el estado inicial de un objeto está dado por los valores actuales de sus propiedades.
