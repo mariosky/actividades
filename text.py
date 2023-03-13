@@ -5,7 +5,8 @@ import markdown
 
 activity_types = {'activity': ['content'],
                   'program': ['unit_test', 'initial_code',
-                              'instructions', 'reg_exp']
+                              'instructions', 'reg_exp'],
+                  'quiz': ['content']
                   }
 
 markdown_files = ['content', 'instructions']
@@ -34,6 +35,6 @@ def to_json(activity_type, path):
 
 
 if __name__ == "__main__":
-    json_object = to_json('activity', 'text//')
+    json_object = to_json('quiz', 'quiz//')
     with open("sample.json", "w") as outfile:
         outfile.write(json_object)

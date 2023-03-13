@@ -1,0 +1,59 @@
+"questions": [
+  {
+    "question": " ¿En que líneas se ejecuta el constructor por defecto?",
+    "options": [
+      " En la línea 27.",
+      " En la línea 28.",
+      " En las líneas 8-12."
+    ],
+    "answer": [
+      1,
+      0,
+      0
+    ],
+    "type": "radio",
+    "interaction": "simpleChoice",
+    "hints": "",
+    "id": 3,
+    "answer_text": [
+      " En la línea 27."
+    ]
+  },
+  {
+    "question": " ¿Qué características tienen un constructor en C#?",
+    "options": [
+      " Al declararse no se especifíca un tipo de dato de retorno.",
+      " Debe ser público. ",
+      " Debe tener el mismo nombre que la clase."
+    ],
+    "answer": [
+      1,
+      0,
+      1
+    ],
+    "type": "multi",
+    "interaction": "choiceInteraction",
+    "hints": "",
+    "id": 7,
+    "answer_text": [
+      " Al declararse no se especifíca un tipo de dato de retorno.",
+      " Debe tener el mismo nombre que la clase."
+    ]
+  },
+  {
+    "question": "¿En lugar de private que tipo de acceso pueden tener los atributos de la clase Vector2D para que no falle el programa el programa?",
+    "options": "",
+    "answer": [
+      "public"
+    ],
+    "type": "str",
+    "interaction": "textEntryInteraction",
+    "hints": [
+      "Debe ser visible desde en el método Main()"
+    ],
+    "id": 10,
+    "answer_text": [
+      "public"
+    ]
+  }
+]

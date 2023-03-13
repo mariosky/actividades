@@ -1,0 +1,51 @@
+_id: /quiz/db3d6a34-c1b5-11ed-afa1-0242ac120002
+uri: /quiz/db3d6a34-c1b5-11ed-afa1-0242ac120002
+publisher: 
+level: principiante
+rights: Attribution-ShareAlike 4.0 International
+description: Este es el primer ejemplo de un programa desde archivos
+icon: coffee
+author: mariosky@gmail.com
+tags: 
+  - completa
+  - csharp
+  - frontpage
+image_url: 
+title: Completa el programa
+type: quiz
+lang: csharp
+external_url: https://sfo2.digitaloceanspaces.com/evo/uno/autores/mario.jpg
+questions: 
+  - question: ¿En que líneas se ejecuta el constructor por defecto?
+    options: 
+      - En la línea 28
+      - En la línea 2
+      - En otra
+    answer: [1, 0, 0]
+    type: radio
+    interaction: simpleChoice
+    hints: 
+    answer_text: 
+      - En la línea 27
+  - question: ¿En que líneas se ejecuta el constructor por defecto?
+    options: 
+      - En la línea 28
+      - En la línea 2
+      - En otra
+    answer: [1, 0, 1]
+    type: multi
+    interaction: choiceInteraction
+    hints: 
+    answer_text: 
+      - En la línea 27
+      - En la línea 27
+  - question: ¿En que líneas se ejecuta el constructor por defecto?
+    options: 
+    answer: public 
+    type: str
+    interaction: textEntryInteraction
+    hints:
+      - Debe ser visible desde el método main
+    answer_text: 
+      - public
+      - another
