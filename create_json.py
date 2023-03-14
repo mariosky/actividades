@@ -26,8 +26,6 @@ def to_json(activity_type, path):
                 if file in markdown_files:
                     activity_md = markdown.markdown(activity_md,
                                                     extensions=['fenced_code'])
-                                                                # , 'codehilite'])
-                    print(activity_md)
                 activity[file] = activity_md
 
     json_activity = json.dumps(activity)
@@ -35,6 +33,14 @@ def to_json(activity_type, path):
 
 
 if __name__ == "__main__":
-    json_object = to_json('quiz', 'quiz//')
+    import argparse
+    description = "Programa para generar el archivo json de una actividad a partir de archivos de markdown, yaml y html."
+    parser = argparse.ArgumentParser(description=description)
+    parser.add_argument('activity_type', choices=['activity', 'program', 'quiz'],
+                        help="se debe especificar como primer argumento el tipo de actividad, opciones: activity, program, quiz")
+    parser.add_argument('path', type=str, help='se debe especificar el directorio donde se encuentran los archivos de la actividad') 
+    args = parser.parse_args()
+
+    json_object = to_json(args.activity_type, args.path)
     with open("sample.json", "w") as outfile:
         outfile.write(json_object)
