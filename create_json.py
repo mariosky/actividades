@@ -42,5 +42,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     json_object = to_json(args.activity_type, args.path)
-    with open("sample.json", "w") as outfile:
+    file_name = args.path[:-1] + '.json'
+    with open(file_name, "w") as outfile:
         outfile.write(json_object)
