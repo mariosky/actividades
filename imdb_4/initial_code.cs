@@ -1,7 +1,6 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
-namespace test;
 
     public class Pelicula
     {
@@ -27,6 +26,7 @@ namespace test;
         public void SetTitulo(String titulo) => this.titulo = titulo;
         public Int16 GetAño() => año;
         public void SetAño(Int16 año) => this.año = año;
+
         public void Imprime()
         {
             Console.WriteLine($"{titulo} ({año})");
@@ -34,13 +34,12 @@ namespace test;
 
         public void AgregaActor(Actor a)
         {
-            actores.Add(a);
+
         }
 
         public void ImprimeActores()
         {
-            foreach(var a in actores)
-                a.Imprime();
+
         }
 
     }
@@ -48,12 +47,10 @@ namespace test;
     public class Actor
     {
         //Propiedades
-        public String Nombre {get; set;}
-        public Int16 Año {get; set;}
+
         //Constructores
         public Actor(String nombre, Int16 año){
-            Nombre = nombre;
-            Año = año;
+
         } 
 
         //Métodos 
@@ -62,5 +59,3 @@ namespace test;
             Console.WriteLine($"{Nombre} ({Año})");
         }
     }
-
-
