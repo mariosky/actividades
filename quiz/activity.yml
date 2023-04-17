@@ -16,36 +16,35 @@ type: quiz
 lang: csharp
 external_url: https://sfo2.digitaloceanspaces.com/evo/uno/autores/mario.jpg
 questions: 
-  - question: ¿En que líneas se ejecuta el constructor por defecto?
+  - question: En C#, ¿Cúal es la diferencia entre un campo y una propiedad?
     options: 
-      - En la línea 28
-      - En la línea 2
-      - En otra
+      - La propiedad nos permite modificar y leer campos privados.
+      - Un campo puede debe ser público y las propiedades son siempre privadas.
+      - No existe diferencia, es el mismo concepto.
     answer: [1, 0, 0]
     type: radio
     interaction: simpleChoice
     hints: 
     answer_text: 
-      - En la línea 27
-  - question: ¿En que líneas se ejecuta el constructor por defecto?
+      - La propiedad utiliza a los campos
+  - question: Ésta es una sección que encontramos en una propiedad
     options: 
-      - En la línea 28
-      - En la línea 2
-      - En otra
+      - get
+      - value
+      - set
     answer: [1, 0, 1]
     type: multi
     interaction: choiceInteraction
     hints: 
     answer_text: 
-      - En la línea 27
-      - En la línea 27
-  - question: ¿En que líneas se ejecuta el constructor por defecto?
+      - get y set
+  - question: ¿Cómo se le llama a la variable que tiene el valor que recibe un propiedad que será set?
     options: 
-    answer: public 
+    answer: value 
     type: str
     interaction: textEntryInteraction
     hints:
-      - Debe ser visible desde el método main
+      - Contiene el valor 
     answer_text: 
-      - public
+      - value
       - another
