@@ -1,20 +1,21 @@
-using System.IO;
 using System;
+using System.IO;
+
 public class Producto
 {
-        public   code;
-        public   desc;
+   private int id;
+   private string nombre;
+   private decimal precio;
+   private int cantidad;
 
-        public Producto(int c, string d)
-        {
-        code=c;
-        desc=d;
-        }
+   // Constructor aquí
 
-        public void Print()
-        {
-        Console.WriteLine("Producto {0}: {1}", code,desc);
-        }
 
+
+   // Imprime()
+   public void Imprime()
+   {
+           Console.WriteLine("id:{0} nombre:{1} precio:{2}", id, nombre, precio);
+   }
+                   
 }
-

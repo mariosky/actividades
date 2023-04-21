@@ -1,8 +1,9 @@
-_id: /program/e0350c5a-f324-11ec-b939-0242ac120003
+_id: /program/e0350c5a-f324-11ec-b939-0242ac120033
+uri: /program/e0350c5a-f324-11ec-b939-0242ac120033
 publisher: 
 level: principiante
 rights: Attribution-ShareAlike 4.0 International
-description: Este es el primer ejemplo de un programa desde archivos
+description: Escribe el constructor de la clase Producto 
 icon: coffee
 author: mariosky@gmail.com
 tags: 

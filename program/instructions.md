@@ -1,29 +1,21 @@
-# In this code there is some problems
-Cuando creamos un objeto, debemos establecer cual será su estado inicial. Recordemos que
-el estado inicial de un objeto está dado por los valores actuales de sus propiedades.
 
-### Sintaxis para crear un constructor ###
-Un constructor *el nombre está dado por el de la clase.*
+### Escribe el constructor
 
-```python
-def foo(a, b):
-  return a + b
+A la clase `Producto` le hace falta el constructor, queremos crear nuestros objetos de
+la siguiente manera: 
+          
+```csharp
+   public class Program
+  {
+    static void Main()
+    {
+    Producto p = new Producto(1, "Libro de Texto C# Avanzado", 730.20m, 2);
+    p.Imprime()
+
+    }
+  }
 ```
 
-``` {.language-csharp .line-numbers}
-class Clase 
-{
-  int campo;
-}
-```
-``` {.language-python .line-numbers}
-class Clase 
-{
-  int campo;
-}
-```
-```python {.language-python .line-numbers}
-class Clase 
-  def __init__(self, o):
-      self.o = o
-```
+Agrega el constructor correspondiente, este debe tomar cuatro argumentos para
+establecer el estado inicial del objeto.
+

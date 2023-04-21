@@ -5,30 +5,31 @@ public class ProductoTest
     [Fact]
     public void Constructor()
     {
-        Producto p = new Producto(1,"hola");
-        // Constraint Syntax
-        Assert.Equal(1, p.code);
+        Producto p = new Producto(1,"p",12.2m,2);
+        Assert.NotNull(p);
     }
 
 
     [Fact]
     public void PrintTest()
     {
-        Producto p = new Producto(1,"hola");
-        p.Print();
+        Producto p = new Producto(1,"p",12.2m,2);
+        p.Imprime();
 
         using (StringWriter sw = new StringWriter())
         {
             Console.SetOut(sw);
 
 
-            p.Print();
+            p.Imprime();
 
-        string expected = "Producto 1: hola";
-        Assert.StartsWith(expected, sw.ToString());
-
-
+        string expected = "id:1 nombre:p precio:12.2\n";
+        Assert.Equal(expected, sw.ToString());
         }
 
     }
+
 }
+
+
+
