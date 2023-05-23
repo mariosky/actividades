@@ -25,7 +25,7 @@ def to_json(activity_type, path):
                 activity_md = md_file.read()
                 if file in markdown_files:
                     activity_md = markdown.markdown(activity_md,
-                                                    extensions=['fenced_code',
+                                                    extensions=['pymdownx.superfences',
                                                                 'tables',
                                                                 'footnotes'])
                 activity[file] = activity_md

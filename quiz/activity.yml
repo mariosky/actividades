@@ -27,6 +27,7 @@ questions:
     hints: 
     answer_text: 
       - La propiedad utiliza a los campos
+    id: 1
   - question: Ésta es una sección que encontramos en una propiedad
     options: 
       - get
@@ -38,6 +39,7 @@ questions:
     hints: 
     answer_text: 
       - get y set
+    id: 2
   - question: ¿Cómo se le llama a la variable que tiene el valor que recibe un propiedad que será set?
     options: 
     answer: value 

@@ -1,9 +1,9 @@
-_id: /activity/7330df52-8b90-11e7-9241-3401663b8331
-uri: /activity/7330df52-8b90-11e7-9241-3401663b8331
+_id: /activity/7e30df52-8b90-11e7-9241-3401663b8331
+uri: /activity/7e30df52-8b90-11e7-9241-3401663b8331
 publisher: 
-level: principiante
+level: intermedio
 rights: Attribution-ShareAlike 4.0 International
-description: Definición de constructor con ejemplos en c#
+description: Definición de interface con ejemplos en c#
 icon: file
 author: Mario García Valdez
 tags: 
@@ -11,7 +11,7 @@ tags:
   - csharp
   - frontpage
 image_url: 
-title: Constructores en C#
+title: Interfaces en C#
 type: text
 external_url: https://sfo2.digitaloceanspaces.com/evo/uno/autores/mario.jpg
 author_image: https://sfo2.digitaloceanspaces.com/evo/uno/autores/mario.jpg
